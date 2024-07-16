@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="https://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css"> -->
+  <title>Cooking with rizwana</title>
+</head>
+
+<body>
+  
+  
+  
+  <div class="col-md-7 desc">
+    <small class="small-text">Welcome to <span class="mobile-block">cooking_with_rizwana_
+              website!</span></small>
+    <h1>
+         <span class="mr-2">Here you will find</span>
+         <span class="text-desc"></span>
+         <span id="app"></span>
+    </h1>
+</div>
+  <script src="js/typewriter.js"></script>
+  <script>
+    var app = document.getElementById('app');
+    
+    var typewriter = new Typewriter(app, {
+      loop: true
+    });
+    
+    typewriter.typeString('amazing cooking videos')
+    .pauseFor(500)
+    .deleteAll()
+    .typeString('welcome to cooking with rizwana')
+    .pauseFor(1000)
+    .deleteAll()
+    .typeString('form to fill wait a while till we connect u to cooking with rizwana!')
+    .start();
+    </script>
+</body>
+
+</html>
